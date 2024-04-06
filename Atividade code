@@ -1,0 +1,122 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPcPbxMfh9eyOL36eWBQQJp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/b3rnardo15/atividadecode/blob/main/Atividade%20code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RDPTYTh2Ih6o",
+        "outputId": "524d5b61-5b74-4f44-e297-8710b8d50f93"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite seu nome: bernardo\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = input(\"Digite seu nome: \")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"seja bem vindo\",nome)"
+      ],
+      "metadata": {
+        "id": "lSaAPVtQJdKZ",
+        "outputId": "81d0e89a-0448-409f-cfa5-a2eaa8599592",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "seja bem vindo bernardo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome =str(input(\"Por favor, digite seu nome: \"))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Fd3OidgKBTh",
+        "outputId": "8d286242-2ce4-4606-f037-05dff7418eb6"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Por favor, digite seu nome: Bernardo Simões\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Olá,\", nome, \"! Bem-vindo!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "38Jh7vwDKF-O",
+        "outputId": "95cd13ab-1dba-4a3e-b80b-395330384cca"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, Bernardo Simões ! Bem-vindo!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
